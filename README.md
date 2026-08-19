@@ -16,7 +16,7 @@ Built as a practical React project to move beyond tutorials and apply frontend d
 
 A demonstration of StudyFlow's core experience, including creating a study session, using the stopwatch, viewing completed sessions, and managing study history.
 
-> 🎬 **[Watch the StudyFlow Demo](demo/demo.mp4)** 
+> <video src="./demo/demo.mp4" controls width="100%"></video>
 
 ---
 
