@@ -12,11 +12,9 @@ Built as a practical React project to move beyond tutorials and apply frontend d
 
 ### StudyFlow in Action
 
-<!-- Replace this section with your demo recording/GIF once it is ready. -->
-
 A demonstration of StudyFlow's core experience, including creating a study session, using the stopwatch, viewing completed sessions, and managing study history.
 
-> <video src="./demo/demo.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/cb592cb0-489d-4d35-bc80-0befd82cfd64
 
 ---
 
