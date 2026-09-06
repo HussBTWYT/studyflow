@@ -132,7 +132,7 @@ export default function Session({ setSessions }) {
     useEffect(() => {
         if (!id) return;
 
-        fetch(`http://localhost:3000/api/sessions/${id}`)
+        fetch(`https://studyflow-api-0pjw.onrender.com/api/sessions/${id}`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Session not found");
@@ -206,7 +206,7 @@ export default function Session({ setSessions }) {
 
         try {
             const response = await fetch(
-                "http://localhost:3000/api/sessions",
+                "https://studyflow-api-0pjw.onrender.com/api/sessions",
                 {
                     method: "POST",
                     headers: {

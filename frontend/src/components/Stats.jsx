@@ -35,7 +35,7 @@ export default function Stats(props) {
 
     useEffect(() => {
         // Fetch data from your Node.js server
-        fetch('http://localhost:3000/api/stats') // Use the correct URL for your server
+        fetch('https://studyflow-api-0pjw.onrender.com/api/stats') // Use the correct URL for your server
         .then(response => response.json())
         .then(data => {
             setStats(data);

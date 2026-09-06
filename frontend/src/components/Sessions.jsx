@@ -37,7 +37,7 @@ export default function Sessions({ sessions, setSessions }) {
     async function deleteSession() {
         try {
             const response = await fetch(
-                `http://localhost:3000/api/sessions/${sessionToDelete}`,
+                `https://studyflow-api-0pjw.onrender.com/api/sessions/${sessionToDelete}`,
                 {
                     method: "DELETE"
                 }

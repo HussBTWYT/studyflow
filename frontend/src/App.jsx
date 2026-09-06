@@ -9,7 +9,7 @@ function App() {
     const [sessions, setSessions] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/sessions")
+        fetch("https://studyflow-api-0pjw.onrender.com/api/sessions")
             .then(response => {
                 if (!response.ok) {
                     throw new Error("Failed to fetch sessions");
