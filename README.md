@@ -161,8 +161,16 @@ into one working product.
 ```bash
 git clone https://github.com/HussBTWYT/studyflow.git
 cd studyflow
+cd frontend
 npm install
 npm run dev
+```
+
+Then, on a seperate terminal do:
+```bash
+cd studyflow
+cd backend
+node server.js
 ```
 
 Then open the local development URL provided by Vite.
