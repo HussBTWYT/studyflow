@@ -3,7 +3,6 @@ const db = require("./database");
 const cors = require("cors");
 
 const app = express();
-const port = 3000;
 
 app.use(express.json());
 app.use(cors());
@@ -165,6 +164,8 @@ app.get("/api/stats", (req, res) => {
     res.json(stats)
 })
 
-app.listen(port, () => {
+const port = process.env.PORT || 3000;
+
+app.listen(port, "0.0.0.0", () => {
     console.log(`App listening on port ${port}`);
 });
