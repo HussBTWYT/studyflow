@@ -2,7 +2,6 @@ import React from 'react'
 import Sessions from "./Sessions"
 import Stats from "./Stats"
 import { NavLink } from 'react-router'
-import { useEffect } from 'react';
 
 export default function Dashboard(props) {
     const {sessions, setSessions} = props;
